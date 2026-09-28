@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cosmosine Labs · Applied AI &amp; software studio</title>
+<meta name="description" content="Independent applied-AI studio: forecasts that show their working, AI agents that compute rather than guess, private on-device AI, and the apps around them.">
+<meta name="theme-color" content="#050714">
+<meta property="og:title" content="Cosmosine Labs · Applied AI &amp; software studio">
+<meta property="og:description" content="Independent applied-AI studio: forecasting, optimization and agent systems whose numbers you can check, and the apps and products around them.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cosmosine.com/">
+<meta property="og:site_name" content="Cosmosine Labs">
+<meta property="og:image" content="https://cosmosine.com/assets/cosmosine-og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://cosmosine.com/">
+<link rel="icon" type="image/png" href="assets/favicon-192.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="fonts.css?v=10cmsup">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Cosmosine Labs","legalName":"Cosmosine Labs LLC","url":"https://cosmosine.com/","logo":"https://cosmosine.com/assets/logo.jpg","description":"Independent applied-AI studio: forecasts that show their working, AI agents that compute rather than guess, private on-device AI, and the apps around them.","email":"admin@cosmosine.com","contactPoint":{"@type":"ContactPoint","email":"admin@cosmosine.com","contactType":"customer service"},"foundingDate":"2026-09-12"}</script>
+
+<style>:root{--space:#050714;--space-rgb:5,7,20;--panel-rgb:15,23,42;--ink:#f1f5f9;--ink-rgb:241,245,249;--cyan:#00f3ff;--cyan-rgb:0,243,255;--violet:#a855f7;--violet-rgb:168,85,247;--blue:#3b82f6;--blue-rgb:59,130,246;--glow:1;--radius:24px;--max:1240px;--heading-weight:700;--sans:"Space Grotesk",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;--mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}</style>
+</head>
+<body data-motion="full" data-particles="80" data-hero="particles">
+
+<!-- Icon sprite (Lucide, ISC licence) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs><style>.i{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}</style></defs>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><rect width="14" height="20" x="5" y="2" rx="2"/><path d="M12 18h.01"/></symbol>
+  <symbol id="i-package" viewBox="0 0 24 24"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></symbol>
+  <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M21 4h-7M10 4H3M21 12h-9M8 12H3M21 20h-5M12 20H3M14 2v4M8 10v4M16 18v4"/></symbol>
+  <symbol id="i-reset" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M6 3l14 9-14 9z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><rect x="14" y="4" width="4" height="16" rx="1"/><rect x="6" y="4" width="4" height="16" rx="1"/></symbol>
+  <symbol id="i-terminal" viewBox="0 0 24 24"><path d="m4 17 6-6-6-6"/><path d="M12 19h8"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-activity" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-6 9H2"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></symbol>
+  <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></symbol>
+</svg>
+
+<div class="ambient" aria-hidden="true"><i class="a"></i><i class="b"></i><i class="c"></i></div>
+
+<header class="site-head" id="head">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="Cosmosine Labs home">
+      <img class="logo" style="border-radius:0;-webkit-mask-image:linear-gradient(to right,transparent,#000 10px,#000 calc(100% - 10px),transparent),linear-gradient(to bottom,transparent,#000 10px,#000 calc(100% - 10px),transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 10px,#000 calc(100% - 10px),transparent),linear-gradient(to bottom,transparent,#000 10px,#000 calc(100% - 10px),transparent);mask-composite:intersect;scale:1.96" src="assets/logo.jpg" alt="" width="42" height="42">
+      <span class="brand-name"><b><span class="t-fs t-c t-al" style="font-size:clamp(16px,calc(15.57px + 1.04vw),28px);font-weight:700;color:#49c1d7;-webkit-text-fill-color:#49c1d7;text-align:center;display:block;width:213px;max-width:100%;box-sizing:border-box">COSMO<span class="t-2" style="color:#4f8ab0;-webkit-text-fill-color:#4f8ab0;font-weight:400">SINE</span></span></b><small><span class="t-fs t-al" style="font-size:clamp(16px,calc(11.68px + 0.78vw),21px);text-align:center;display:block;width:100px;max-width:100%;box-sizing:border-box">Labs</span></small></span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#work-with-us">Work with us</a>
+      <a href="#wave">The Wave</a>
+      <a href="#work">Work</a>
+      <a href="#approach">Approach</a>
+      <a href="#principles">Principles</a>
+    </nav>
+
+    <a class="btn-ghost head-cta" href="#work-with-us">
+      Start a project <svg class="i" width="16" height="16"><use href="#i-chevron"/></svg>
+    </a>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <svg class="i"><use href="#i-menu"/></svg>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#work-with-us">Work with us</a>
+    <a href="#wave">The Wave</a>
+    <a href="#work">Work</a>
+    <a href="#approach">Approach</a>
+    <a href="#principles">Principles</a>
+    <a class="btn-ghost" href="#work-with-us">Start a project</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HOME ============ -->
+  <section class="hero" id="home">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div class="hero-grid emblem-right">
+
+        <div class="hero-copy">
+          <span class="badge rise"><span class="dot"></span>APPLIED AI · SOFTWARE · PRODUCTS</span>
+
+          <h1 class="rise d1">Careful AI, <span class="grad">that shows its working.</span></h1>
+
+          <p class="lede rise d2">Cosmosine Labs builds forecasting, optimization and agent systems whose numbers you can check, and the apps and physical products around them. Small studio, long horizons, and a few client projects alongside our own.</p>
+
+          <div class="ctas rise d3">
+            <a class="btn-primary" href="#work-with-us">Start a project <svg class="i"><use href="#i-chevron"/></svg></a>
+            <a class="btn-secondary" href="#work"><svg class="i"><use href="#i-layers"/></svg> What we build</a>
+          </div>
+          <dl class="facts rise d4" style="grid-template-columns:repeat(3,1fr)">
+            <div><dt class="c1">10+</dt><dd>Years building production AI</dd></div>
+            <div><dt class="c2">2</dt><dd>Working days to reply</dd></div>
+            <div><dt class="c3">0</dt><dd>Trackers on this site</dd></div>
+          </dl>
+        </div>
+
+        <div class="rise d2">
+          <div class="emblem">
+            <div class="emblem-top">
+              <span><i class="dot"></i>COSMOSINE_LABS</span>
+              <span>f(x) = sin(x)</span>
+            </div>
+            <div class="emblem-core">
+              <img class="logo" style="border-radius:0;-webkit-mask-image:linear-gradient(to right,transparent,#000 27px,#000 calc(100% - 27px),transparent),linear-gradient(to bottom,transparent,#000 27px,#000 calc(100% - 27px),transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 27px,#000 calc(100% - 27px),transparent),linear-gradient(to bottom,transparent,#000 27px,#000 calc(100% - 27px),transparent);mask-composite:intersect;scale:1.46" src="assets/logo.jpg" alt="Cosmosine Labs emblem: a sine wave running through a spiral galaxy" width="190" height="190">
+              <div>
+                <h2><span class="t-c" style="font-weight:700;color:#49c1d7;-webkit-text-fill-color:#49c1d7">COSMO<span class="t-2" style="color:#4f8ab0;-webkit-text-fill-color:#4f8ab0;font-weight:400">SINE</span></span></h2>
+                <p>cosmo + sine · Labs</p>
+              </div>
+            </div>
+            <div class="emblem-status">
+              <span>Studio state:</span>
+              <b><svg class="i" width="14" height="14"><use href="#i-activity"/></svg> Building</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK-WITH-US ============ -->
+  <section class="section alt has-layers" id="work-with-us">
+    <div class="layers">
+      <div class="layer l-shape no-phone" style="--lx:81%;--ly:50%;--lmx:81%;--lmy:50%;width:clamp(230px,38.33vw,460px);opacity:0.32;filter:blur(90px);z-index:-1" aria-hidden="true"><i class="shp" style="border-radius:50%;background:linear-gradient(135deg,var(--violet),var(--blue))"></i></div>
+      <div class="layer l-shape no-phone" style="--lx:81.5%;--ly:40.5%;--lmx:81.5%;--lmy:40.5%;width:clamp(135px,22.5vw,270px);aspect-ratio:270/70;rotate:46deg;opacity:0.7;z-index:1" aria-hidden="true"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><g style="fill:none;stroke:url(#g-sections-1-layers-1);stroke-width:3px;stroke-linecap:round;stroke-linejoin:round"><defs><linearGradient id="g-sections-1-layers-1" gradientTransform="rotate(45 .5 .5)"><stop offset="0" style="stop-color:var(--cyan)"/><stop offset="1" style="stop-color:var(--violet)"/></linearGradient></defs><path d="M2 50 C12 20 22 20 32 50 S52 80 62 50 S82 20 92 50 L98 60" vector-effect="non-scaling-stroke"/></g></svg></div>
+      <div class="layer l-shape no-phone" style="--lx:81.5%;--ly:59.5%;--lmx:81.5%;--lmy:59.5%;width:clamp(135px,22.5vw,270px);aspect-ratio:270/70;rotate:-46deg;opacity:0.7;z-index:1" aria-hidden="true"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><g style="fill:none;stroke:url(#g-sections-1-layers-2);stroke-width:3px;stroke-linecap:round;stroke-linejoin:round"><defs><linearGradient id="g-sections-1-layers-2" gradientTransform="rotate(45 .5 .5)"><stop offset="0" style="stop-color:var(--violet)"/><stop offset="1" style="stop-color:var(--blue)"/></linearGradient></defs><path d="M2 50 C12 20 22 20 32 50 S52 80 62 50 S82 20 92 50 L98 60" vector-effect="non-scaling-stroke"/></g></svg></div>
+      <div class="layer l-icon no-phone" style="--lx:74%;--ly:31%;--lmx:74%;--lmy:31%;width:clamp(46px,7.67vw,92px);filter:drop-shadow(0 0 11.5px var(--cyan));z-index:2" aria-hidden="true"><span class="ibadge filled" style="background:#0b1330;border-radius:50%;color:var(--cyan)"><svg class="i"><use href="#i-sparkles"/></svg></span></div>
+      <div class="layer l-icon no-phone" style="--lx:89%;--ly:50%;--lmx:89%;--lmy:50%;width:clamp(46px,7.67vw,92px);filter:drop-shadow(0 0 11.5px var(--violet));z-index:2" aria-hidden="true"><span class="ibadge filled" style="background:#0b1330;border-radius:50%;color:var(--violet)"><svg class="i"><use href="#i-phone"/></svg></span></div>
+      <div class="layer l-icon no-phone" style="--lx:74%;--ly:69%;--lmx:74%;--lmy:69%;width:clamp(46px,7.67vw,92px);filter:drop-shadow(0 0 11.5px var(--blue));z-index:2" aria-hidden="true"><span class="ibadge filled" style="background:#0b1330;border-radius:50%;color:var(--blue)"><svg class="i"><use href="#i-package"/></svg></span></div>
+    </div>
+    <div class="wrap">
+      <div class="text-block">
+        <span class="pill">Client work</span>
+        <h2 class="title">Work <span class="grad">with us</span></h2>
+        <div class="body">
+<p>We take on a small number of client projects alongside our own, and bring the same care to both. With AI at the centre, here is what that work does for you:</p>
+<ul><li><strong>Know what is coming, and why.</strong> Demand, revenue and capacity forecasts that show their working, so your team trusts them enough to order stock, staff shifts and plan cash by them. For one-off questions, forecasting agents give you the odds and the reasoning behind them.</li><li><strong>AI you can sign off on.</strong> Copilots and agents for analysis, reporting and planning that compute every figure with code they ran and show it, so a number that reaches your board or your clients has been checked, not guessed.</li><li><strong>AI your customers trust with their data.</strong> Features that run on the phone or in the home, so personal data never leaves it: less compliance risk, no per-use cloud bill, and it works offline. Built to be safe for children when they are the audience.</li><li><strong>Better decisions on price, stock and schedules.</strong> Pricing, inventory, scheduling and supply planning, modelled end to end and tested against your own history, so you see the likely gain before anything changes.</li><li><strong>From idea to something people use.</strong> iPhone, Android and web apps, and physical products, taken from first sketch through launch and support by one small studio, so nothing gets lost between design, engineering and manufacturing.</li></ul>
+<p>Behind the work is PhD-level research and more than a decade of building AI, forecasting and optimization systems that run in production at global scale, and of leading the teams of scientists, engineers and product managers who deliver them.</p>
+<p>Tell us what you&#39;re trying to build and where it stands today. We reply within two working days, and after that we&#39;re just a call away whenever you need us. No account managers, no hand-offs: you talk directly with whoever is building it.</p>
+        </div>
+      <div class="ctas section-cta">
+        <a class="btn-primary" href="mailto:admin@cosmosine.com?subject=Project%20enquiry&amp;body=What%20are%20you%20trying%20to%20build%3F%0A%0AWhere%20does%20it%20stand%20today%3F%0A%0AWhat%20data%20do%20you%20have%3F%0A%0ATimeline%20or%20budget%20range%3A%0A">Start a project <svg class="i"><use href="#i-chevron"/></svg></a>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WAVE ============ -->
+  <section class="section" id="wave">
+    <div class="wrap">
+      <div class="head-split">
+        <div>
+          <span class="pill violet">Behind the name</span>
+          <h2 class="title">Cosmos, <span class="grad">meet sine</span></h2>
+        </div>
+        <p>A galaxy is patient and enormous; a sine wave is small and exact. We named the studio for both. Adjust the wave below and watch the spiral follow it.</p>
+      </div>
+
+      <div class="lab">
+        <div class="lab-controls">
+          <div>
+            <header>
+              <h3><svg class="i"><use href="#i-sliders"/></svg> Wave parameters</h3>
+              <button class="link-btn" id="lab-reset" type="button"><svg class="i"><use href="#i-reset"/></svg> Reset</button>
+            </header>
+
+            <div class="slider">
+              <label for="s-freq"><span>Frequency (ω)</span><output id="o-freq" for="s-freq"></output></label>
+              <input type="range" id="s-freq" min="0.5" max="6" step="0.1" value="2.8">
+            </div>
+            <div class="slider">
+              <label for="s-amp"><span>Amplitude (A)</span><output id="o-amp" for="s-amp"></output></label>
+              <input type="range" id="s-amp" min="10" max="90" step="1" value="45">
+            </div>
+            <div class="slider v">
+              <label for="s-phase"><span>Phase (φ)</span><output id="o-phase" for="s-phase"></output></label>
+              <input type="range" id="s-phase" min="0" max="3.14" step="0.02" value="1.2">
+            </div>
+            <div class="slider b">
+              <label for="s-density"><span>Galaxy density</span><output id="o-density" for="s-density"></output></label>
+              <input type="range" id="s-density" min="40" max="250" step="5" value="120">
+            </div>
+          </div>
+
+          <button class="toggle" id="lab-toggle" type="button"></button>
+        </div>
+
+        <div class="lab-view">
+          <div class="viewport">
+            <canvas id="lab-canvas" aria-label="Animated spiral of particles distorted by a sine wave" role="img"></canvas>
+            <div class="formula">
+              <img class="logo" src="assets/logo.jpg" alt="" width="20" height="20">
+              <span id="formula"></span>
+            </div>
+          </div>
+          <div class="readouts">
+            <div class="readout"><span>Period (2π/ω)</span><b class="c1" id="r-period"></b></div>
+            <div class="readout"><span>Peak-to-peak</span><b class="c2" id="r-p2p"></b></div>
+            <div class="readout"><span>Phase</span><b class="c3" id="r-phase"></b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section class="section alt" id="work">
+    <div class="wrap">
+      <div class="head-center">
+        <span class="pill">What we work on</span>
+        <h2 class="title">One studio, <span class="grad">three disciplines</span></h2>
+        <p class="sub">AI, software and physical goods share more than people expect: all three reward careful specification, early prototypes, and someone who cares about the last detail.</p>
+      </div>
+
+      <div class="cards" style="--cols:3">
+        <article class="card">
+          <div class="icon"><svg class="i"><use href="#i-sparkles"/></svg></div>
+          <div class="kicker">APPLIED AI</div>
+          <h3>AI &amp; machine learning</h3>
+          <p>Machine-learning, forecasting and optimization systems, and newer work with large language models and agents. Built to run in production, not just in a demo. Some of it becomes a product; most of it makes the products better.</p>
+          <ul>
+            <li><svg class="i"><use href="#i-check"/></svg> Forecasting &amp; optimization</li>
+            <li><svg class="i"><use href="#i-check"/></svg> LLM &amp; multi-agent systems</li>
+            <li><svg class="i"><use href="#i-check"/></svg> Private by design</li>
+          </ul>
+        </article>
+
+        <article class="card violet">
+          <div class="icon"><svg class="i"><use href="#i-phone"/></svg></div>
+          <div class="kicker">SOFTWARE</div>
+          <h3>Applications</h3>
+          <p>Software for phones and the web, from first sketch through release and everything that follows it, with AI where it genuinely helps. Design, engineering, and support sit with the same people, which keeps decisions honest and changes quick.</p>
+          <ul>
+            <li><svg class="i"><use href="#i-check"/></svg> iOS, Android &amp; web</li>
+            <li><svg class="i"><use href="#i-check"/></svg> Private by default</li>
+            <li><svg class="i"><use href="#i-check"/></svg> Supported after launch</li>
+          </ul>
+        </article>
+
+        <article class="card blue">
+          <div class="icon"><svg class="i"><use href="#i-package"/></svg></div>
+          <div class="kicker">PHYSICAL GOODS</div>
+          <h3>Products</h3>
+          <p>Physical goods designed in house and produced with manufacturing partners. The discipline is the same as software: specify carefully, prototype early, and hold the details that are easy to let go of.</p>
+          <ul>
+            <li><svg class="i"><use href="#i-check"/></svg> Designed in house</li>
+            <li><svg class="i"><use href="#i-check"/></svg> Made with trusted partners</li>
+            <li><svg class="i"><use href="#i-check"/></svg> Prototyped before promised</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ APPROACH ============ -->
+  <section class="section" id="approach">
+    <div class="wrap">
+      <div class="head-split">
+        <div>
+          <span class="pill">How we work</span>
+          <h2 class="title">Fewer things, <span class="grad">done properly</span></h2>
+        </div>
+      </div>
+      <div class="approach">
+        <blockquote>We would rather ship one considered thing than five that need explaining.</blockquote>
+        <div class="copy">
+<p>Most of what we build starts as a question we cannot stop turning over: how something should feel to use, why a familiar object is worse than it needs to be, what becomes possible when a tool anticipates rather than waits.</p>
+<p>We keep the loop short. The same people who sketch a thing write it, test it, and answer for it once it is out in the world. That is a constraint on how much we take on, and we treat it as one.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRINCIPLES ============ -->
+  <section class="section alt" id="principles">
+    <div class="wrap">
+      <div class="head-center">
+        <span class="pill">Principles</span>
+        <h2 class="title">Privacy is a <span class="grad">design decision</span></h2>
+        <p class="sub">The simplest way to protect people&#39;s information is not to collect it. Where we can build without it, we do.</p>
+      </div>
+
+      <div class="commit-grid">
+        <div class="terminal">
+          <div class="terminal-top">
+            <span><svg class="i"><use href="#i-terminal"/></svg> cosmosine / defaults</span>
+            <span>v2026</span>
+          </div>
+<pre><span class="c"># What ships unless there&#39;s a reason not to</span>
+<span class="k">defaults</span> = {
+  <span class="s">&quot;site_analytics&quot;</span>:        <span class="k">None</span>,
+  <span class="s">&quot;cookies_on_this_site&quot;</span>:  <span class="k">None</span>,
+  <span class="s">&quot;sell_personal_data&quot;</span>:    <span class="k">False</span>,
+  <span class="s">&quot;train_models_on_it&quot;</span>:    <span class="k">False</span>,
+}
+
+<span class="c"># Client projects</span>
+<span class="k">client_data</span> = {
+  <span class="s">&quot;used_for&quot;</span>:         <span class="s">&quot;your project only&quot;</span>,
+  <span class="s">&quot;encrypted&quot;</span>:        <span class="k">True</span>,
+  <span class="s">&quot;access&quot;</span>:           <span class="s">&quot;need to know&quot;</span>,
+  <span class="s">&quot;train_for_others&quot;</span>: <span class="k">False</span>,
+  <span class="s">&quot;at_the_end&quot;</span>:       <span class="s">&quot;returned or deleted&quot;</span>,
+}</pre>
+          <div class="terminal-ok"><svg class="i"><use href="#i-check"/></svg> Mirrors our public privacy policy</div>
+        </div>
+        <div class="promises">
+          <div class="promise">
+            <h3><svg class="i"><use href="#i-shield"/></svg> Nothing watching you here</h3>
+            <p>No analytics, advertising trackers, or cookies on this site, and no profiles of the people who read it.</p>
+          </div>
+          <div class="promise">
+            <h3><svg class="i"><use href="#i-lock"/></svg> Client data stays yours</h3>
+            <p>Used only for your project, encrypted and access-limited, never used to train models for anyone else, and returned or deleted when the work ends.</p>
+          </div>
+          <div class="promise">
+            <h3><svg class="i"><use href="#i-shield"/></svg> Your data is not the product</h3>
+            <p>We do not sell personal information, share it for others&#39; marketing, or use it to train models.</p>
+          </div>
+          <div class="promise">
+            <h3><svg class="i"><use href="#i-mail"/></svg> Ask, and we answer</h3>
+            <p>Request, correct, or delete what we hold about you, wherever you live. <a href="privacy.html">Read the full policy</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMPANY ============ -->
+  <section class="section" id="company">
+    <div class="wrap">
+      <div class="head-center">
+        <span class="pill">Company</span>
+        <h2 class="title">At a <span class="grad">glance</span></h2>
+        
+      </div>
+      <dl class="keyfacts">
+        <div class="keyfact"><dt>Legal name</dt><dd>Cosmosine Labs LLC</dd></div>
+        <div class="keyfact"><dt>Company type</dt><dd>Delaware limited liability company</dd></div>
+        <div class="keyfact"><dt>Founded</dt><dd>2026</dd></div>
+        <div class="keyfact"><dt>Pronounced</dt><dd>cosmo + sine, as in the math function f(x) = sin(x)</dd></div>
+        <div class="keyfact"><dt>Email</dt><dd><a href="mailto:admin@cosmosine.com">admin@cosmosine.com</a></dd></div>
+        <div class="keyfact"><dt>Privacy</dt><dd><a href="privacy.html">Privacy policy</a></dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section alt contact" id="contact">
+    <div class="wrap">
+      <span class="pill">Contact</span>
+      <h2 class="title">Say hello</h2>
+      <a class="contact-address" href="mailto:admin@cosmosine.com">admin@cosmosine.com</a>
+      <p class="sub">For client projects, partnerships, press, or anything else. We read everything that arrives and reply to project enquiries within two working days. For anything about your personal data, send a <a href="mailto:admin@cosmosine.com?subject=Privacy%20request">privacy request</a>.</p>
+      <div class="ctas section-cta">
+        <a class="btn-primary" href="mailto:admin@cosmosine.com?subject=Project%20enquiry&amp;body=What%20are%20you%20trying%20to%20build%3F%0A%0AWhere%20does%20it%20stand%20today%3F%0A%0AWhat%20data%20do%20you%20have%3F%0A%0ATimeline%20or%20budget%20range%3A%0A">Start a project <svg class="i"><use href="#i-chevron"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid" style="--foot-cols:2">
+      <div>
+        <a class="foot-brand" href="index.html">
+          <img class="logo" src="assets/logo.jpg" alt="" width="38" height="38">
+          <b>COSMOSINE</b>
+        </a>
+        <p>An independent studio building applied AI, applications, and physical products.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Studio</h4>
+        <ul>
+          <li><a href="#wave">The Wave</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#principles">Principles</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>© 2026 Cosmosine Labs LLC — a Delaware limited liability company</span>
+      
+      <span class="mono">f(t) = A·sin(ωt + φ) // cosmo + sine</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+
+</body>
+</html>
