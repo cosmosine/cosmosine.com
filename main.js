@@ -67,6 +67,20 @@
     });
   }
 
+  /* ---------- copy buttons (e.g. the email address in an enquiry panel) ---------- */
+  // Shown only when the browser can copy; nothing is stored or sent anywhere.
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    document.querySelectorAll('[data-copy]').forEach(function (btn) {
+      var label = btn.querySelector('span');
+      btn.hidden = false;
+      btn.addEventListener('click', function () {
+        navigator.clipboard.writeText(btn.getAttribute('data-copy')).then(function () {
+          if (label) { label.textContent = 'Copied'; setTimeout(function () { label.textContent = 'Copy'; }, 1800); }
+        }, function () {});
+      });
+    });
+  }
+
   /* ---------- hero backdrop: one of several effects, chosen per site ---------- */
   // particles: drifting dust over sine lines (dark themes)
   // confetti:  tumbling paper bits          bubbles: soft rising circles

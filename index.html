@@ -29,6 +29,7 @@
   <defs><style>.i{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}</style></defs>
   <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
   <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></symbol>
   <symbol id="i-phone" viewBox="0 0 24 24"><rect width="14" height="20" x="5" y="2" rx="2"/><path d="M12 18h.01"/></symbol>
   <symbol id="i-package" viewBox="0 0 24 24"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></symbol>
   <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M21 4h-7M10 4H3M21 12h-9M8 12H3M21 20h-5M12 20H3M14 2v4M8 10v4M16 18v4"/></symbol>
@@ -44,6 +45,9 @@
   <symbol id="i-activity" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-6 9H2"/></symbol>
   <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></symbol>
   <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></symbol>
+  <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></symbol>
+  <symbol id="i-message" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></symbol>
+  <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></symbol>
 </svg>
 
 <div class="ambient" aria-hidden="true"><i class="a"></i><i class="b"></i><i class="c"></i></div>
@@ -63,7 +67,7 @@
       <a href="#principles">Principles</a>
     </nav>
 
-    <a class="btn-ghost head-cta" href="#work-with-us">
+    <a class="btn-ghost head-cta" href="#start">
       Start a project <svg class="i" width="16" height="16"><use href="#i-chevron"/></svg>
     </a>
 
@@ -78,7 +82,7 @@
     <a href="#work">Work</a>
     <a href="#approach">Approach</a>
     <a href="#principles">Principles</a>
-    <a class="btn-ghost" href="#work-with-us">Start a project</a>
+    <a class="btn-ghost" href="#start">Start a project</a>
   </div>
 </header>
 
@@ -98,7 +102,7 @@
           <p class="lede rise d2">Cosmosine Labs builds forecasting, optimization and agent systems whose numbers you can check, and the apps and physical products around them. Small studio, long horizons, and a few client projects alongside our own.</p>
 
           <div class="ctas rise d3">
-            <a class="btn-primary" href="#work-with-us">Start a project <svg class="i"><use href="#i-chevron"/></svg></a>
+            <a class="btn-primary" href="#start">Start a project <svg class="i"><use href="#i-chevron"/></svg></a>
             <a class="btn-secondary" href="#work"><svg class="i"><use href="#i-layers"/></svg> What we build</a>
           </div>
           <dl class="facts rise d4" style="grid-template-columns:repeat(3,1fr)">
@@ -149,11 +153,80 @@
 <p>We take on a small number of client projects alongside our own, and bring the same care to both. With AI at the centre, here is what that work does for you:</p>
 <ul><li><strong>Know what is coming, and why.</strong> Demand, revenue and capacity forecasts that show their working, so your team trusts them enough to order stock, staff shifts and plan cash by them. For one-off questions, forecasting agents give you the odds and the reasoning behind them.</li><li><strong>AI you can sign off on.</strong> Copilots and agents for analysis, reporting and planning that compute every figure with code they ran and show it, so a number that reaches your board or your clients has been checked, not guessed.</li><li><strong>AI your customers trust with their data.</strong> Features that run on the phone or in the home, so personal data never leaves it: less compliance risk, no per-use cloud bill, and it works offline. Built to be safe for children when they are the audience.</li><li><strong>Better decisions on price, stock and schedules.</strong> Pricing, inventory, scheduling and supply planning, modelled end to end and tested against your own history, so you see the likely gain before anything changes.</li><li><strong>From idea to something people use.</strong> iPhone, Android and web apps, and physical products, taken from first sketch through launch and support by one small studio, so nothing gets lost between design, engineering and manufacturing.</li></ul>
 <p>Behind the work is PhD-level research and more than a decade of building AI, forecasting and optimization systems that run in production at global scale, and of leading the teams of scientists, engineers and product managers who deliver them.</p>
-<p>Tell us what you&#39;re trying to build and where it stands today. We reply within two working days, and after that we&#39;re just a call away whenever you need us. No account managers, no hand-offs: you talk directly with whoever is building it.</p>
+<p>We&#39;re just a call away whenever you need us. No account managers, no hand-offs: you talk directly with whoever is building it.</p>
         </div>
-      <div class="ctas section-cta">
-        <a class="btn-primary" href="mailto:admin@cosmosine.com?subject=Project%20enquiry&amp;body=What%20are%20you%20trying%20to%20build%3F%0A%0AWhere%20does%20it%20stand%20today%3F%0A%0AWhat%20data%20do%20you%20have%3F%0A%0ATimeline%20or%20budget%20range%3A%0A">Start a project <svg class="i"><use href="#i-chevron"/></svg></a>
       </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW-IT-STARTS ============ -->
+  <section class="section alt" id="how-it-starts">
+    <div class="wrap">
+      <div class="head-center">
+        <span class="pill">Starting a project</span>
+        <h2 class="title">A clear way to <span class="grad">begin</span></h2>
+        <p class="sub">A small first conversation is enough. We will help you work out whether the next step is worthwhile before asking you to commit to a larger piece of work.</p>
+      </div>
+
+      <div class="cards" style="--cols:3">
+        <article class="card">
+          <div class="icon"><svg class="i"><use href="#i-message"/></svg></div>
+          <div class="kicker">01 · FIT CALL</div>
+          <h3>Start with the question</h3>
+          <p>Tell us the decision, product or problem you are working on. We will talk through what matters, what is known, and whether we are the right people to help.</p>
+          <ul>
+            <li><svg class="i"><use href="#i-check"/></svg> A direct conversation</li>
+            <li><svg class="i"><use href="#i-check"/></svg> A straight answer on fit</li>
+          </ul>
+        </article>
+
+        <article class="card violet">
+          <div class="icon"><svg class="i"><use href="#i-compass"/></svg></div>
+          <div class="kicker">02 · SCOPE &amp; PROTOTYPE</div>
+          <h3>Find the useful first step</h3>
+          <p>Together, we define a focused piece of discovery or a prototype: the outcome, the data, the constraints, and the evidence needed to make a confident decision.</p>
+          <ul>
+            <li><svg class="i"><use href="#i-check"/></svg> Clear scope and next steps</li>
+            <li><svg class="i"><use href="#i-check"/></svg> Evidence before scale</li>
+          </ul>
+        </article>
+
+        <article class="card blue">
+          <div class="icon"><svg class="i"><use href="#i-rocket"/></svg></div>
+          <div class="kicker">03 · BUILD &amp; SUPPORT</div>
+          <h3>Take it into the world</h3>
+          <p>When the work proves out, the same people design, build, test and support it with you, without handing the context to someone new.</p>
+          <ul>
+            <li><svg class="i"><use href="#i-check"/></svg> Built with the people who scoped it</li>
+            <li><svg class="i"><use href="#i-check"/></svg> Support after launch</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ START ============ -->
+  <section class="section alt inquiry-section" id="start">
+    <div class="wrap">
+      <div class="inquiry">
+        <div class="inquiry-copy">
+          <h3>Tell us what you&#39;re planning</h3>
+          <p>We reply to every project enquiry within two working days.</p>
+          <div class="kicker">Worth including</div>
+          <ul>
+            <li><svg class="i"><use href="#i-check"/></svg> What you&#39;re trying to build</li>
+            <li><svg class="i"><use href="#i-check"/></svg> Where it stands today</li>
+            <li><svg class="i"><use href="#i-check"/></svg> What data you have</li>
+            <li><svg class="i"><use href="#i-check"/></svg> Timeline or budget range</li>
+          </ul>
+        </div>
+        <div class="inquiry-actions">
+          <a class="btn-primary" href="mailto:admin@cosmosine.com?subject=Project%20enquiry&amp;body=What%20are%20you%20trying%20to%20build%3F%0A%0AWhere%20does%20it%20stand%20today%3F%0A%0AWhat%20data%20do%20you%20have%3F%0A%0ATimeline%20or%20budget%20range%3A%0A">Start a project <svg class="i"><use href="#i-chevron"/></svg></a>
+          <div class="inquiry-mail">
+            <span>Or write to <b>admin@cosmosine.com</b></span>
+            <button type="button" class="link-btn" data-copy="admin@cosmosine.com" hidden><svg class="i" width="14" height="14"><use href="#i-copy"/></svg> <span>Copy</span></button>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -365,7 +438,7 @@
       <span class="pill">Contact</span>
       <h2 class="title">Say hello</h2>
       <a class="contact-address" href="mailto:admin@cosmosine.com">admin@cosmosine.com</a>
-      <p class="sub">For client projects, partnerships, press, or anything else. We read everything that arrives and reply to project enquiries within two working days. For anything about your personal data, send a <a href="mailto:admin@cosmosine.com?subject=Privacy%20request">privacy request</a>.</p>
+      <p class="sub">Write to us about client projects, partnerships, press or anything else. For anything about your personal data, send a <a href="mailto:admin@cosmosine.com?subject=Privacy%20request">privacy request</a>.</p>
       <div class="ctas section-cta">
         <a class="btn-primary" href="mailto:admin@cosmosine.com?subject=Project%20enquiry&amp;body=What%20are%20you%20trying%20to%20build%3F%0A%0AWhere%20does%20it%20stand%20today%3F%0A%0AWhat%20data%20do%20you%20have%3F%0A%0ATimeline%20or%20budget%20range%3A%0A">Start a project <svg class="i"><use href="#i-chevron"/></svg></a>
       </div>
